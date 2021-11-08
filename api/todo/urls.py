@@ -1,5 +1,5 @@
 from rest_framework import routers
-from .views import TodiViewset
+from .views import TodoViewset
 
 router = routers.DefaultRouter()
-router.register('todo', TodiViewset)
+router.register('todo', TodoViewset)
