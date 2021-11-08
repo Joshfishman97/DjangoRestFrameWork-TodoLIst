@@ -7,3 +7,4 @@ const AddTodo = () =>{
         </h1>
     )
 }
+export default AddTodo
